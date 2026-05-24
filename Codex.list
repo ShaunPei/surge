@@ -1,37 +1,60 @@
 # NAME: Codex
 # AUTHOR: ShaunPei
 # REPO: https://github.com/ShaunPei/surge
-# UPDATED: 2026-05-24 21:23:09
-# DOMAIN: 11
-# DOMAIN-SUFFIX: 20
-# TOTAL: 31
+# UPDATED: 2026-05-24 21:38:40
+# DOMAIN: 28
+# DOMAIN-SUFFIX: 24
+# TOTAL: 52
 
-# OpenAI / ChatGPT / Codex
+# OpenAI / ChatGPT / Codex core
 DOMAIN,android.chat.openai.com
 DOMAIN,chat.openai.com
 DOMAIN,desktop.chat.openai.com
 DOMAIN,ios.chat.openai.com
-DOMAIN,ws.chatgpt.com
+DOMAIN,tcr9i.chat.openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 
-# Auth, feature flags, telemetry, support
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,static.cloudflareinsights.com
+# Codex and ChatGPT WebSocket
+DOMAIN,ws.chatgpt.com
+
+# Auth, identity, and app setup
+DOMAIN,auth0.openai.com
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,setup.auth.openai.com
+DOMAIN,setup.workos.com
+DOMAIN,workos.imgix.net
+DOMAIN-SUFFIX,auth.openai.com
 DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,workoscdn.com
+
+# Feature flags, release config, and telemetry
+DOMAIN,events.statsigapi.net
+DOMAIN,featureassets.org
+DOMAIN,prodregistryv2.org
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN,statsigapi.net
+DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,openaimerge.com
+DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,statsigapi.net
-DOMAIN-SUFFIX,workos.com
-DOMAIN-SUFFIX,workoscdn.com
+
+# Support and messaging
+DOMAIN,cdn.openaimerge.com
+DOMAIN,js.intercomcdn.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,openaimerge.com
 
 # Bot checks and abuse prevention
 DOMAIN,challenges.cloudflare.com
@@ -46,5 +69,9 @@ DOMAIN,humb.apple.com
 DOMAIN,register.appattest.apple.com
 
 # Mail and billing flows that may be opened from OpenAI products
+DOMAIN,js.stripe.com
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN-SUFFIX,sendgrid.net
 DOMAIN-SUFFIX,stripe.com
