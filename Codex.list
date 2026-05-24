@@ -1,0 +1,50 @@
+# NAME: Codex
+# AUTHOR: ShaunPei
+# REPO: https://github.com/ShaunPei/surge
+# UPDATED: 2026-05-24 21:23:09
+# DOMAIN: 11
+# DOMAIN-SUFFIX: 20
+# TOTAL: 31
+
+# OpenAI / ChatGPT / Codex
+DOMAIN,android.chat.openai.com
+DOMAIN,chat.openai.com
+DOMAIN,desktop.chat.openai.com
+DOMAIN,ios.chat.openai.com
+DOMAIN,ws.chatgpt.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# Auth, feature flags, telemetry, support
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,openaimerge.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,workoscdn.com
+
+# Bot checks and abuse prevention
+DOMAIN,challenges.cloudflare.com
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,arkoselabs.com
+
+# Voice / realtime
+DOMAIN-SUFFIX,livekit.cloud
+
+# Mobile app checks
+DOMAIN,humb.apple.com
+DOMAIN,register.appattest.apple.com
+
+# Mail and billing flows that may be opened from OpenAI products
+DOMAIN-SUFFIX,sendgrid.net
+DOMAIN-SUFFIX,stripe.com
